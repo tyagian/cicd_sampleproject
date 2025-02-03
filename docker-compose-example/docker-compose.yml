@@ -1,0 +1,7 @@
+services:
+  frontend:
+    container_name: frontend
+    image: ghcr.io/programonaut/docker-image-github:latest
+    ports:
+      - 3000:3000
+      
